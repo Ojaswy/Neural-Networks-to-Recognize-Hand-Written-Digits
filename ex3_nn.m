@@ -1,4 +1,5 @@
 %% Machine Learning Online Class - Exercise 3 | Part 2: Neural Networks
+%  Instructions
 
 %  ------------
 % 
