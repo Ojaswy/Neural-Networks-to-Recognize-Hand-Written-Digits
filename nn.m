@@ -1,21 +1,3 @@
-%% Machine Learning Online Class - Exercise 3 | Part 2: Neural Networks
-%  Instructions
-
-%  ------------
-%  This file contains code that helps you get started on the
-% 
-%  linear exercise. You will need to complete the following functions 
-%  in this exericse:
-%
-%     lrCostFunction.m (logistic regression cost function)
-%     oneVsAll.m
-%     predictOneVsAll.m
-%     predict.m
-%
-%  For this exercise, you will not need to change any code in this file,
-%  or any other files other than those mentioned above.
-%
-
 %% Initialization
 clear ; close all; clc
 
@@ -55,11 +37,6 @@ fprintf('\nLoading Saved Neural Network Parameters ...\n')
 load('weights.mat');
 
 %% ================= Part 3: Implement Predict =================
-%  After training the neural network, we would like to use it to predict
-%  the labels. You will now implement the "predict" function to use the
-%  neural network to predict the labels of the training set. This lets
-%  you compute the training set accuracy.
-
 pred = predict(Theta1, Theta2, X);
 
 fprintf('\nTraining Set Accuracy: %f\n', mean(double(pred == y)) * 100);
