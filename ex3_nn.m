@@ -33,7 +33,7 @@ num_labels = 10;          % 10 labels, from 1 to 10
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
 
-load('ex3data1.mat');
+load('data1.mat');
 m = size(X, 1);
 
 % Randomly select 100 data points to display
@@ -52,7 +52,7 @@ pause;
 fprintf('\nLoading Saved Neural Network Parameters ...\n')
 
 % Load the weights into variables Theta1 and Theta2
-load('ex3weights.mat');
+load('weights.mat');
 
 %% ================= Part 3: Implement Predict =================
 %  After training the neural network, we would like to use it to predict
