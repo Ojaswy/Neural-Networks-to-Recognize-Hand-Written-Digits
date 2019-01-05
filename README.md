@@ -8,6 +8,7 @@ Here you will find two different datasets and code for them to recognise hand wr
 ![](https://naadispeaks.files.wordpress.com/2017/11/vqope.jpg?w=630)
 
 Picturising the algorithm
+
 ![](https://ml4a.github.io/images/figures/mnist-input.png)
 
 ## Output:
