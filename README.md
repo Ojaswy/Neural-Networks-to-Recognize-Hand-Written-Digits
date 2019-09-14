@@ -15,3 +15,4 @@ Picturising the algorithm
 
 ![](https://github.com/Ojaswy/Neural-Networks-Recognizing-hand-written-digits/blob/master/numbers%20prediction.JPG)
  
+ 
