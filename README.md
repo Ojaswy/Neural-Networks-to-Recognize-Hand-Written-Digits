@@ -1,4 +1,4 @@
-# ```Neural-Networks-to-Recognize-Hand-Written-Digits```
+## ```Neural-Networks-to-Recognize-Hand-Written-Digits```
 Here you will find two different datasets and code for them to recognise hand written digits.
 
 1) *MNIST*
